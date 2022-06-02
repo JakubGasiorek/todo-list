@@ -1,5 +1,5 @@
 :root {
-    --color-bg: #1ce;
+    --color-bg: rgb(17, 50, 238);
     --color-text: rgb(19, 85, 97);
 }
 
@@ -11,7 +11,7 @@
 
 body {
     align-items: flex-start;
-    background: linear-gradient(45deg, #1ce, #fff);
+    background: linear-gradient(45deg,#fff, rgb(17, 57, 238));
     color: var(--color-text);
     display: flex;
     justify-content: center;
@@ -23,17 +23,17 @@ body {
 
 .container {
     background: linear-gradient(45deg,
-            rgba(255, 255, 255, 0.4),
-            rgba(255, 255, 255, 0.8));
+              rgba(255, 255, 255, 0.8),
+              rgba(255, 255, 255, 0.4));
     border-radius: 4px;
     display: inline-block;
-    padding: 16px;
+    padding: 24px;
 }
 
 input[type="text"] {
     display: block;
     margin: 12px 0;
-    padding: 12px 16px;
+    padding: 8px 16px;
 }
 
 button {
@@ -58,6 +58,8 @@ button:hover {
     align-items: center;
     display: flex;
     list-style-type: none;
+    padding: 4px 0px;
+
 }
 
 .categories input {
